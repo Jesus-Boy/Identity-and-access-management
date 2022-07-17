@@ -115,7 +115,7 @@ def verify_decode_jwt(token):
       }, 401)
 
     for key in jwks['keys']:
-      if key['kid'] == unverified_header['kid]']:
+      if key['kid'] == unverified_header['kid']:
         rsa_key = {
           'kty': key['kty'],
           'kid': key['kid'],
