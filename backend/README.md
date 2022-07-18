@@ -85,3 +85,8 @@ There are `@TODO` comments throughout the `./backend/src`. We recommend tackling
 
 1. `./src/auth/auth.py`
 2. `./src/api.py`
+
+## Bypassing Werkzeug error
+
+If you are using the latest version, kindly go to the routing.py file in the werkzeug folder.
+Open the file and comment out lines 240 - 244. That should stop the error.
